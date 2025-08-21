@@ -14,7 +14,7 @@ function diasSemana() {
     if (dia >= 1 && dia <= 7) {
         console.log("El día es: " + dias[dia - 1]);
     } else {
-        console.log("Ingrese un número válido");
+        console.log("Ingrese un número inválido");
     }
 
     return dias;
